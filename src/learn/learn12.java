@@ -44,7 +44,7 @@ public class learn12 {
       stu1.setStu_name("哈哈哈");
       stu1.setTutor("急急急");
       stu1.setSpec_direction("京津冀");
-      System.out.println(stu1.toString() +";研究方向: "+stu1.spec_direction+";导师:"+stu1.tutor+";");
+      System.out.println(stu1 +";研究方向: "+stu1.spec_direction+";导师:"+stu1.tutor+";");
     }
   }
 }

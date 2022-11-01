@@ -17,11 +17,11 @@ public class learn22 {
     String b = "as";
     String c = "as";
     String d = "as";
-    a = new String("as");
-    d = new String("as");
+    a = "as";
+    d = "as";
     String s5,s6;
     s5="we are family";
-    s6=new String("we are family");
+    s6= "we are family";
     System.out.println("a==b结果为" + (a == b));
     System.out.println("a==c结果为" + (a == c));
     System.out.println("a==d结果为" + (a == d));

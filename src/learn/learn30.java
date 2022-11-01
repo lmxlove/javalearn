@@ -12,14 +12,17 @@ public class learn30 {
     speakeCar=new SpeakeCar();
     speakeElephant.start();
     speakeCar.start();
-    for (int i=1; i<=20;i++){
+    //魔法值是什么
+    final int forNum=20;//不加这个，直接用20会报警告，不能使用魔法值
+    for (  int i=1; i<=forNum;i++){
       System.out.println("主人"+i+" ");
     }
   }
   public static class SpeakeElephant extends Thread{
     @Override
     public  void run() {
-      for (int i=1; i<=20;i++){
+      final int forNum=20;
+      for (int i=1; i<=forNum;i++){
         System.out.println("大象"+i+"");
       }
     }
@@ -27,7 +30,8 @@ public class learn30 {
   public static class SpeakeCar extends Thread{
     @Override
     public  void run() {
-      for (int i=1; i<=20;i++){
+      final int forNum=20;
+      for (int i=1; i<=forNum;i++){
         System.out.println("轿车"+i+"");
       }
     }

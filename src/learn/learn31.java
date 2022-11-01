@@ -7,7 +7,7 @@ package learn;
 public class learn31 {
   public static void main(String[] args) {
     People p=new People(){
-        @Override
+        @Override//重写方法必须要有的注解
         public void run() {
            System.out.println("小学生跑的很慢");
         }

@@ -18,7 +18,7 @@ public class learn26 {
       this.age = age;
     }
 
-    @Override
+    @Override//重写方法必须要有的注解
     // 重写toString
     public String toString() {
       return "User{" + "name='" + name + '\'' + ", age=" + age + '}';
