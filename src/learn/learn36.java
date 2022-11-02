@@ -1,5 +1,5 @@
 package learn;
-
+//在项目中使用Arrays.asList、ArrayList的subList的注意事项
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
