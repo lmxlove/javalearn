@@ -13,7 +13,7 @@ public class learn39 {
 
     @Override
     public String toString() {//重写object类的tostring方法
-        //π怎么取整数 Math.PI
+
         area = radius * radius * Math.PI;
         return "" + area;
     }

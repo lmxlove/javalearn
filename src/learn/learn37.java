@@ -21,7 +21,8 @@ public class learn37<E> {
     }
 
     public double computerVolume() {
-        String s = bottom.toString();//泛型变量只能调用从object类继承的或重写的方法
+        String s = bottom.toString();
+        //泛型变量只能调用从object类继承的或重写的方法
         double area = Double.parseDouble(s);
         return 1.0 / 3.0 * area * hight;
     }
