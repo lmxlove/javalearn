@@ -9,7 +9,8 @@ public class learn45 {
 
   //变更代码，提交代码到github演示
   public static void main(String[] args) {
-    System.out.println("提交代码到github");
+    int a = 123;
+    System.out.println("提交代码到github" + a);
   }
 
 }
