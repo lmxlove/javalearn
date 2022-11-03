@@ -12,6 +12,8 @@ public class learn45 {
     int a = 123;
     String b = "123";
     int c = 145;
+    long d = 2L;
+    char e = 'l';
     System.out.println("提交代码到github" + a);
   }
 
